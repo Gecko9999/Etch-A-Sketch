@@ -10,7 +10,6 @@ flex-wrap: wrap;
 
 .container2 {
     width: 320px;
-   
     display: flex;
     flex-wrap: wrap;
 }
