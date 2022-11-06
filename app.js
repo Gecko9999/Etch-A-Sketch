@@ -49,21 +49,7 @@ else {
 getInput()
 })
 
-document.getElementById('#rgb').onclick = function() {
-    newContainer.addEventListener('mouseover', function(e) {
-        const target = e.target
-         if(target.matches('.diva')){
-         function getRandomRGB(){
-           const x = Math.floor(Math.random()*256)
-           const y = Math.floor(Math.random()*256)
-           const z = Math.floor(Math.random()*256)
-           const RGBColor = "rgb("+x+","+y+","+z+")";    
-           return RGBColor
-       }
-          return  target.style.backgroundColor = getRandomRGB()
-         }
-        })
-}
+
 
    
 
