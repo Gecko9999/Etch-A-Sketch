@@ -1,15 +1,12 @@
-* {box-sizing: border-box;}
+body {background-color: whitesmoke;
+text-align: center;}
 
 
-.container {
-
-width: 320px;
+.container, .container2 {
+    margin: 0 auto;
+width: 640px;
 display: flex;
 flex-wrap: wrap;
+
 }
 
-.container2 {
-    width: 320px;
-    display: flex;
-    flex-wrap: wrap;
-}
